@@ -61,8 +61,6 @@ class CakeClientProblematic(object):
             2. Imagine, there is a new cake(almond). In current impementation we would need to add
                 an elif for this newly introduced cake. Now image this at scale. We can have very
                 many flavours, which means. very many elif changes, compilation, etc etc. Not ideal.
-        :param choice:
-        :return:
         """
         if choice == "banana":
             return BananaCake()

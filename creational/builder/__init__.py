@@ -6,7 +6,6 @@ class Client(object):
     def __init__(self):
         self._director = Director()
 
-
     def build(self, type):
         if type == "A":
             self.buildA()
